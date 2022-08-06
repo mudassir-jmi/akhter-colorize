@@ -1,0 +1,30 @@
+{
+  "name": "akhter-colorize",
+  "version": "1.0.0",
+  "description": "A Useful library to colorize your console log",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mudassir-jmi/akhter-colorize.git"
+  },
+  "keywords": [
+    "console log color",
+    "colorize log",
+    "different colors in console"
+  ],
+  "author": "Mudassir A <mudassirakhter420@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mudassir-jmi/akhter-colorize/issues"
+  },
+  "homepage": "https://github.com/mudassir-jmi/akhter-colorize#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "files": ["lib/**/*"]
+}
